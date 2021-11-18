@@ -37,7 +37,10 @@ Asegurese de aceptar los terminos y de click en ```Crear```.
 * ```Almacenamiento / Storage```: Seleccione el almacenamiento donde desea desplegar el recurso. Si no tiene uno creado, siga estos <a href="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento#Crear-servicio-Object-Storage-file_cabinet"> pasos </a>.
 
 Por último de click en ```Crear / Create```. 
+<br />
 
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/upload/main/Imagenes/watson.gif"></p>
+<br />
 
 ## Cargar y correr notebook Jupiter :closed_book:
 
@@ -50,6 +53,10 @@ Tenga en cuenta que:
 - Para ejecutar el código, seleccione la celda haciendo clic en ella, y luego haga clic en el Runbotón en la parte superior del cuaderno (o use Shift+Enter), para ejecutar las celdas en el cuaderno.
 - Los números delante de las celdas le indican en qué orden los ha ejecutado, por ejemplo [1]
 - Cuando vea un [\*] la celda se está ejecutando actualmente y [] significa que aún no ha ejecutado la celda.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/upload/main/Imagenes/notebook.gif"></p>
+<br />
 
 ## Exploración de los datos :mag:
 1. Cargue las librerias a utilizar para realizar la exploración:
@@ -99,6 +106,10 @@ df.iloc[0]
 ```
 df['Average_Age,_2017'] > 39
 ```
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/upload/main/Imagenes/explora.gif"></p>
+<br />
 
 ## Transformación de los datos :arrows_counterclockwise:
 
@@ -141,7 +152,10 @@ df.rename(columns={'Area_name':'Name',
 df['Population density (/ha)'].dropna()
 df.head()
 ```
+<br />
 
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/upload/main/Imagenes/transforma.gif"></p>
+<br />
 
 ## Visualización de los datos :bar_chart:
 
@@ -171,7 +185,10 @@ df['Employment rate (%)'].plot.hist(bins=15,figsize=(10,5));
 import seaborn as sns
 sns.catplot(x='Employment rate (%)', y='Largest migrant population', kind="box", data=df);
 ```
+<br />
 
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/upload/main/Imagenes/visualiza.gif"></p>
+<br />
 ## Referencias :book:
 * [Data analysis in python](https://developer.ibm.com/learningpaths/data-analysis-using-python/data-analysis-in-python-using-pandas/).
 
