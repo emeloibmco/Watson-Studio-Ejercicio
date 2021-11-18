@@ -138,7 +138,7 @@ df.rename(columns={'Area_name':'Name',
 ```
 4. Elimine las filas con los datos NaN
 ```
-df.dropna()
+df['Population density (/ha)'].dropna()
 df.head()
 ```
 
