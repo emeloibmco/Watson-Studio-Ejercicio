@@ -41,7 +41,28 @@ Por último de click en ```Crear / Create```.
 
 ## Cargar y correr notebook Jupiter :closed_book:
 
+1. Ingrese en el botón ```Añadir al proyecto / Add to project```.
+2. Seleccione la opción ```Notebook``` y complete:
+* ```Nombre / Name```: Elija un nombre para el notebook.
+Las demás opciones pueden dejarse por defecto. De click en ```Crear / Create```. Y espere a que cargue el notebook.
+Tenga en cuenta que:
+- Para ejecutar el código, seleccione la celda haciendo clic en ella, y luego haga clic en el Runbotón en la parte superior del cuaderno (o use Shift+Enter), para ejecutar las celdas en el cuaderno.
+- Los números delante de las celdas le indican en qué orden los ha ejecutado, por ejemplo [1]
+- Cuando vea un [\*]la celda se está ejecutando actualmente y [] significa que aún no ha ejecutado la celda.
+
 ## Exploración de los datos :mag:
+1. Cargue las librerias a utilizar para realizar la exploración:
+```
+import numpy as np
+import pandas as pd
+```
+
+2. Ejecute el siguiente código para leer datos de un archivo CSV usando la función read_csv:
+```
+gl  =  pd . read_csv ( 'https://raw.githubusercontent.com/IBMDeveloperUK/Python-Pandas-Workshop/master/london-borough-profiles.csv' , encoding  =  'unicode_escape' )
+```
+
+3. 
 
 ## Transformación de los datos :arrows_counterclockwise:
 
