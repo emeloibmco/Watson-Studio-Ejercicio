@@ -39,7 +39,7 @@ Asegurese de aceptar los terminos y de click en ```Crear```.
 Por último de click en ```Crear / Create```. 
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/upload/main/Imagenes/watson.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/blob/main/Imagenes/watson.gif"></p>
 <br />
 
 ## Cargar y correr notebook Jupiter :closed_book:
@@ -55,7 +55,7 @@ Tenga en cuenta que:
 - Cuando vea un [\*] la celda se está ejecutando actualmente y [] significa que aún no ha ejecutado la celda.
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/upload/main/Imagenes/notebook.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/blob/main/Imagenes/notebook.gif"></p>
 <br />
 
 ## Exploración de los datos :mag:
@@ -108,7 +108,7 @@ df['Average_Age,_2017'] > 39
 ```
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/upload/main/Imagenes/explora.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/blob/main/Imagenes/explora.gif"></p>
 <br />
 
 ## Transformación de los datos :arrows_counterclockwise:
@@ -154,7 +154,7 @@ df.head()
 ```
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/upload/main/Imagenes/transforma.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/blob/main/Imagenes/transforma.gif"></p>
 <br />
 
 ## Visualización de los datos :bar_chart:
@@ -187,8 +187,9 @@ sns.catplot(x='Employment rate (%)', y='Largest migrant population', kind="box",
 ```
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/upload/main/Imagenes/visualiza.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/blob/main/Imagenes/visualiza.gif"></p>
 <br />
+
 ## Referencias :book:
 * [Data analysis in python](https://developer.ibm.com/learningpaths/data-analysis-using-python/data-analysis-in-python-using-pandas/).
 
