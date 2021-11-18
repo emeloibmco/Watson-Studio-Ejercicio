@@ -97,7 +97,7 @@ df.iloc[0]
 ```
 10. Filtre los datos:
 ```
-df['Average Age'] > 39
+df['Average_Age,_2017'] > 39
 ```
 
 ## Transformación de los datos :arrows_counterclockwise:
