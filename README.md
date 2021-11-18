@@ -160,6 +160,12 @@ df['Employment rate (%)'].plot.hist(bins=10);
 ```
 df['Employment rate (%)'].plot.hist(bins=15,figsize=(10,5));
 ```
+5. Visualice un diagrama de caja:
+```
+import seaborn as sns
+sns.catplot(x='Employment rate (%)', y='Largest migrant population', kind="box", data=df);
+```
+
 ## Referencias :book:
 * [Data analysis in python](https://developer.ibm.com/learningpaths/data-analysis-using-python/data-analysis-in-python-using-pandas/).
 
