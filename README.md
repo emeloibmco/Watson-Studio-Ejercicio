@@ -1,11 +1,11 @@
 # Ejercicio Watson Studio  :robot::cloud:
-
+En esta guía se muestra el desarrollo de un notebook en Jupyter que estará desplegado en un proyecto de Watson Studio de IBM Cloud. En este notebook se realiza la exploración, transformación y visualización de una base de datos de distritos de Londres. 
 <br />
 
 ## Índice  📰
 1. [Pre-Requisitos](#pre-requisitos-pencil)
 2. [Crear proyecto en Watson](#Crear-proyecto-en-Watson-open_file_folder)
-3. [Cargar y correr notebook Jupiter](#Cargar-y-correr-notebook-Jupiter-closed_book)
+3. [Cargar y correr notebook Jupyter](#Cargar-y-correr-notebook-Jupyter-closed_book)
 4. [Exploración de los datos](#Exploración-de-los-datos-mag)
 5. [Transformación de los datos](#Transformación-de-los-datos-arrows_counterclockwise)
 6. [Visualización de los datos](#Visualización-de-los-datos-bar_chart)
@@ -42,7 +42,7 @@ Por último de click en ```Crear / Create```.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/blob/main/Imagenes/watson.gif"></p>
 <br />
 
-## Cargar y correr notebook Jupiter :closed_book:
+## Cargar y correr notebook Jupyter :closed_book:
 
 1. Ingrese en el botón ```Añadir al proyecto / Add to project```.
 2. Seleccione la opción ```Notebook``` y complete:
