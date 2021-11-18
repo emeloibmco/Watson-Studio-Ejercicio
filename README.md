@@ -34,7 +34,7 @@ Asegurese de aceptar los terminos y de click en ```Crear```.
 4. Cuando haya cargado la plataforma de click en ```Proyectos / Projects``` y a continuación en ``` Nuevo proyecto / New project``` > ```Crear un proyecto vacio / Create an empty project```, a continuación complete lo siguiente:
 
 * ```Nombre del proyecto / Project name```: Elija un nombre para el recurso.
-* ```Almacenamiento / Storage: Seleccione el almacenamiento donde desea desplegar el recurso. Si no tiene uno creado, siga estos <a href="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento#Crear-servicio-Object-Storage-file_cabinet"> pasos </a>.
+* ```Almacenamiento / Storage: Seleccione el almacenamiento donde desea desplegar el recurso. Si no tiene uno creado, siga estos <a href="https://github.com/emeloibmco/IBM-Cloud-Crear-Volumen-Almacenamiento#Crear-servicio-Object-Storage-file_cabinet"> pasos. </a>
 
 Por último de click en ```Crear / Create```. 
 
