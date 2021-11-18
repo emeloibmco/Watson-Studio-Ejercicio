@@ -45,6 +45,7 @@ Por último de click en ```Crear / Create```.
 2. Seleccione la opción ```Notebook``` y complete:
 * ```Nombre / Name```: Elija un nombre para el notebook.
 Las demás opciones pueden dejarse por defecto. De click en ```Crear / Create```. Y espere a que cargue el notebook.
+
 Tenga en cuenta que:
 - Para ejecutar el código, seleccione la celda haciendo clic en ella, y luego haga clic en el Runbotón en la parte superior del cuaderno (o use Shift+Enter), para ejecutar las celdas en el cuaderno.
 - Los números delante de las celdas le indican en qué orden los ha ejecutado, por ejemplo [1]
@@ -86,11 +87,79 @@ len(df)
 ```
 df.shape
 ```
+8. Visualice las estadisticas por cada columna de la base de datos:
+```
+df.describe()
+```
+9. Observe una columna en especifico:
+```
+df.iloc[0]
+```
+10. Filtre los datos:
+```
+df['Average Age'] > 39
+```
 
 ## Transformación de los datos :arrows_counterclockwise:
 
+1. Agregue una nueva columna a la base de datos y visualicelo:
+```
+df['new']= 1 
+df.head()
+```
+
+2. Elimine la columna agregada y visualicelo:
+```
+df = df.drop(columns='new')
+df.head()
+```
+
+3. Renombre algunas columnas de la base de datos:
+```
+df.rename(columns={'Area_name':'Name',
+                'Inner/_Outer_London':'Inner/Outer',
+                'GLA_Population_Estimate_2017':'Population',
+                'Inland_Area_(Hectares)':'Area (ha)',
+                'Average_Age,_2017':'Average Age',
+                'Political_control_in_council':'Political control',
+                'Population_density_(per_hectare)_2017':'Population density (/ha)',
+                'New_migrant_(NINo)_rates,_(2015/16)':'New migrant rates',
+                'Happiness_score_2011-14_(out_of_10)':'Happiness score',
+                '%_of_resident_population_born_abroad_(2015)':'Population born abroad (%)',
+                'Employment_rate_(%)_(2015)':'Employment rate (%)',
+                'Turnout_at_2014_local_elections':'Turnout at local elections',
+                'Median_House_Price,_2015':'Median House Price',
+                "Largest_migrant_population_by_country_of_birth_(2011)":'Largest migrant population',
+                'Gross_Annual_Pay_-_Female_(2016)':'Gross Pay (Female)',
+                'Gross_Annual_Pay_-_Male_(2016)':'Gross Pay (Male)',
+                '%_of_area_that_is_Greenspace,_2005':'Greenspace (%)'},
+                 inplace=True)
+```
+
+
 ## Visualización de los datos :bar_chart:
 
+1. Pandas utiliza Matplotlib como predeterminado para las visualizaciones. Importe la libreria.
+```
+import matplotlib.pyplot as plt
+
+%matplotlib inline
+```
+
+2. Visualice el gráfico de linea de una de las columnas:
+```
+df['Employment rate (%)'].plot();
+```
+
+3. Para el ejemplo anterior, un histograma podría funcionar mejor:
+```
+df['Employment rate (%)'].plot.hist(bins=10);
+```
+
+4. Cambie el tamaño del histograma:
+```
+df['Employment rate (%)'].plot.hist(bins=15,figsize=(10,5));
+```
 ## Referencias :book:
 * [Data analysis in python](https://developer.ibm.com/learningpaths/data-analysis-using-python/data-analysis-in-python-using-pandas/).
 
