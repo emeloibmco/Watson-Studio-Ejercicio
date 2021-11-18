@@ -134,6 +134,12 @@ df.rename(columns={'Area_name':'Name',
                 'Gross_Annual_Pay_-_Male_(2016)':'Gross Pay (Male)',
                 '%_of_area_that_is_Greenspace,_2005':'Greenspace (%)'},
                  inplace=True)
+ df.head()
+```
+4. Elimine las filas con los datos NaN
+```
+df.dropna()
+df.head()
 ```
 
 
