@@ -1,4 +1,4 @@
-# Watson-Studio-Ejercicio :robot::cloud:
+# Ejercicio Watson Studio  :robot::cloud:
 
 <br />
 
@@ -48,7 +48,7 @@ Las demás opciones pueden dejarse por defecto. De click en ```Crear / Create```
 Tenga en cuenta que:
 - Para ejecutar el código, seleccione la celda haciendo clic en ella, y luego haga clic en el Runbotón en la parte superior del cuaderno (o use Shift+Enter), para ejecutar las celdas en el cuaderno.
 - Los números delante de las celdas le indican en qué orden los ha ejecutado, por ejemplo [1]
-- Cuando vea un [\*]la celda se está ejecutando actualmente y [] significa que aún no ha ejecutado la celda.
+- Cuando vea un [\*] la celda se está ejecutando actualmente y [] significa que aún no ha ejecutado la celda.
 
 ## Exploración de los datos :mag:
 1. Cargue las librerias a utilizar para realizar la exploración:
@@ -59,10 +59,33 @@ import pandas as pd
 
 2. Ejecute el siguiente código para leer datos de un archivo CSV usando la función read_csv:
 ```
-gl  =  pd . read_csv ( 'https://raw.githubusercontent.com/IBMDeveloperUK/Python-Pandas-Workshop/master/london-borough-profiles.csv' , encoding  =  'unicode_escape' )
+df  =  pd . read_csv ( 'https://raw.githubusercontent.com/IBMDeveloperUK/Python-Pandas-Workshop/master/london-borough-profiles.csv' , encoding  =  'unicode_escape' )
 ```
 
-3. 
+3. Visualice las primeras filas de la base de datos:
+```
+df.head()
+```
+
+4. Visualice los nombres de las columnas de la base de datos:
+```
+df.columns
+```
+
+5. Verifique el tipo de datos de cada una de las columnas de la base de datos:
+```
+df.dtypes
+```
+
+6. Conozca el número de filas de la base de datos:
+```
+len(df)
+```
+
+7. Conozca el número de filas y columnas de la base de datos:
+```
+df.shape
+```
 
 ## Transformación de los datos :arrows_counterclockwise:
 
