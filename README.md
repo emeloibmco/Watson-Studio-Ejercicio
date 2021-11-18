@@ -7,7 +7,7 @@
 2. [Crear proyecto en Watson](#Crear-proyecto-en-Watson-open_file_folder)
 3. [Cargar y correr notebook Jupiter](#Cargar-y-correr-notebook-Jupiter-closed_book)
 4. [Exploración de los datos](#Exploración-de-los-datos-mag)
-5. [Transformación de los datos](#Transformación-de-los datos)
+5. [Transformación de los datos](#Transformación-de-los-datos-arrows_counterclockwise)
 6. [Visualización de los datos](#Visualización-de-los-datos-bar_chart)
 7. [Referencias](#Referencias-book)
 8. [Autores](#Autores-black_nib)
