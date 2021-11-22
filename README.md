@@ -58,6 +58,8 @@ Tenga en cuenta que:
 <p align="center"><img width="700" src="https://github.com/emeloibmco/Watson-Studio-Ejercicio/blob/main/Imagenes/notebook.gif"></p>
 <br />
 
+Recuerde añadir una nueva celda, como se observa en el video, para ejecutar cada porción de código que se muestra a continuación y asi poder evidenciar los resultados.
+
 ## Exploración de los datos :mag:
 1. Cargue las librerias a utilizar para realizar la exploración:
 ```
@@ -145,7 +147,7 @@ df.rename(columns={'Area_name':'Name',
                 'Gross_Annual_Pay_-_Male_(2016)':'Gross Pay (Male)',
                 '%_of_area_that_is_Greenspace,_2005':'Greenspace (%)'},
                  inplace=True)
- df.head()
+df.head()
 ```
 4. Elimine las filas con los datos NaN
 ```
